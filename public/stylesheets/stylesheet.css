@@ -35,8 +35,15 @@
 }
 
 .logoImg {
+  font-size: 20px;
   text-align: center;
   margin: 100px;
+}
+
+.logoImg p {
+  width: 1200px;
+  margin: 100px;
+  margin-left: 200px;
 }
 
 .service-box {
@@ -71,16 +78,21 @@
 }
 
 .discography {
-  margin: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 60px;
   font-size: 60px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
 }
 .discoImg {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 700px;
+  max-height: 700px;
 }
 .discography ul {
+  list-style-type: none;
+  text-align: center;
   margin: 40px;
-  font-size: 60px;
+  font-size: 40px;
 }
